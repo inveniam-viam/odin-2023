@@ -1,0 +1,12 @@
+
+
+
+span{
+    margin: 20px; /* inline */
+    padding: 20px;
+    width: 80px; /* not respected since inline */
+    height: 50px; /* not respected since inline */
+    background-color: lightblue;
+    border: 2px solid blue;
+    display: inline-block;
+}
