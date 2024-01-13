@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+.header {
+    background: papayawhip;
+    font-family: monospace;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 3rem;
+    font-weight: 900;
+    color: tomato;
+    text-align: center;
+    background-color: white;
+    padding: 4px 32px;
+    margin-inline: auto;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0 1rem;
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    background: white;
+    padding: 8px;
+}
